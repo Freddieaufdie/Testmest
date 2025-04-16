@@ -1,0 +1,5 @@
+# Basis-Image (ein leichtgewichtiges Linux mit Shell)
+FROM alpine:latest
+
+# Kommando das ausgeführt wird, wenn der Container gestartet wird
+CMD ["echo", "Hallo"]
